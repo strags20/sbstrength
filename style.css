@@ -1,0 +1,29 @@
+.about-section p,
+.about-section ul {
+    margin-bottom: 20px; /* adds space after each paragraph and list */
+}
+.hero-title {
+    font-size:3rem;         /* both lines almost same size */
+    font-weight:900;
+    line-height:1.1;        /* tight line spacing so lines touch */
+    margin-bottom:15px;     /* space before smaller text */
+    text-transform:uppercase;
+}
+
+.hero-text {
+    font-size:1.2rem;
+    font-weight:400;
+    margin-top:0;           /* already have margin-bottom on title */
+    margin-bottom:30px;
+}
+
+/* Mobile adjustments */
+@media (max-width:768px) {
+    .hero-title {
+        font-size:2rem;
+        line-height:1.1;   /* still tight */
+    }
+    .hero-text {
+        font-size:1rem;
+    }
+}
